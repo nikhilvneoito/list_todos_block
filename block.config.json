@@ -1,0 +1,13 @@
+{
+  "name": "list_todos_block",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/nikhilvneoito/list_todos_block",
+    "ssh": "git@github.com:nikhilvneoito/list_todos_block.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
